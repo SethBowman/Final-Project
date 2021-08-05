@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
+
 * {
   box-sizing: border-box;
 }
@@ -12,13 +13,17 @@ body {
     0deg,
     rgb(103, 142, 226) 23.8%,
     rgb(163, 186, 236) 92%
-  );
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
+  #head-photo {
+  border-radius: 10%;
+  }
+  
 .music-container {
   background-color: white;
   border-radius: 15px;
@@ -139,9 +144,4 @@ body {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
-}
-
-
-#head-photo {
-  border-radius: 10%;
 }
