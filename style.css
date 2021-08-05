@@ -22,6 +22,7 @@ body {
 
   #head-photo {
   border-radius: 10%;
+  box-shadow: 0 10px 10px 0 rgba(10, 11, 14, 0.6);
   }
   
 .music-container {
